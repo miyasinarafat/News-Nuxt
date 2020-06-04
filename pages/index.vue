@@ -12,14 +12,13 @@
 
 
 <script>
-  import axios from "~/plugins/axios";
+  import { mapState } from 'vuex';
 
   export default {
-    asyncData() {
-      return axios.get('users')
-        .then(response => ({
-          users: response.data
-        }));
+    computed: {
+      ...mapState({
+        users: state => state.users
+      })
     }
   }
 </script>
