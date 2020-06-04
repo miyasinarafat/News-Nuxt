@@ -1,10 +1,9 @@
 <template>
   <div class="">
     <h1 class="text-6xl text-gray-800">Hello Nuxt.js</h1>
-    {{ ids }}
     <ul class="mt-20 mb-40 ml-20 list-disc">
-      <li v-for="user in users" :key="user.id">
-        {{ user.login }}
+      <li v-for="item in items" :key="item.id">
+        {{ item.title }}
       </li>
     </ul>
   </div>
@@ -17,8 +16,8 @@
   export default {
     computed: {
       ...mapState({
-        users: state => state.users,
-        ids: state => state.ids
+        ids: state => state.ids,
+        items: state => state.items
       })
     }
   }
