@@ -1,5 +1,7 @@
 # news-nuxt
 
+> News Api: https://github.com/HackerNews/API
+
 > Nuxt.js project
 
 ## Build Setup
