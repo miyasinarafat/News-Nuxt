@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.nuxt-link-exact-active {
+  @apply font-bold underline
+}
+
+
+
 /*.page-enter,
 .page-leave-to {
   opacity: 0;

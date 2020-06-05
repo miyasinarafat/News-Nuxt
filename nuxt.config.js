@@ -52,5 +52,8 @@ module.exports = {
   plugins: [
     "@/plugins/filters"
   ],
+  /*router: {
+    linkActiveClass: 'menu-active',
+  },*/
 }
 
