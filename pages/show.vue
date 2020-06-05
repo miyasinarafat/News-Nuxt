@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1 class="text-2xl ml-20">Show</h1>
     <items></items>
   </div>
 </template>
