@@ -48,6 +48,9 @@ module.exports = {
         })
       }
     }*/
-  }
+  },
+  plugins: [
+    "@/plugins/filters"
+  ],
 }
 

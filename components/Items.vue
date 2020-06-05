@@ -4,7 +4,7 @@
       <li class="mb-10 broder-solid border-2 border-gray-300 p-10" v-for="item in items" :key="item.id">
         <div class="score">{{ item.score }}</div>
         <div class="title">{{ item.title }}</div>
-        <div class="details">by {{ item.by }} {{ item.time }}</div>
+        <div class="details">by {{ item.by }} {{ item.time | timeSince }}</div>
         <div class="comments">{{ item.descendants }} comments</div>
       </li>
     </ul>
